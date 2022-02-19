@@ -332,6 +332,15 @@ export class AppComponent implements OnInit {
      this.leads = response.data;
      
      console.log(leadArray);
+     axios({
+      method: "GET",
+      url: "https://secure-scrubland-24784.herokuapp.com/list/leads",
+    }).then((response) => {
+      
+     const leadArray:Leads[]= response.data;
+     this.leads = response.data;
+     console.log(leadArray);
+    })
      this.modalService.dismissAll();
      this.show = true;
      this.buttonDisabled = false;
