@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { PostLeadComponent } from './post-lead.component';
 
 const routes: Routes = [
-  { path: 'home', component: AppComponent },
+  { path: '', component: AppComponent },
   { path: 'postleads', component: PostLeadComponent }
 ];
 
