@@ -1,0 +1,84 @@
+.button {
+    width: 200px !important;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.secondContainer{
+    flex-direction: row;
+    width: 900px;
+    margin-bottom: 100;
+    justify-content: space-around;
+}
+
+.delete-button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 230px;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-button {
+  display: flex;
+  width: 40px;
+  height: 40px;
+
+  align-items: center;
+  justify-content: center;
+}
+.close-button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 50%;
+    height: 20%;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    
+  }
+
+  tbody td:nth-child(3) {
+    margin-right: 40;
+    width: 100;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
