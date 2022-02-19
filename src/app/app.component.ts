@@ -1,4 +1,4 @@
-import { Component, Inject, OnInit, PipeTransform } from '@angular/core';
+import { Component, Inject, NgModule, OnInit, PipeTransform } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 import {MatDialog, MatDialogConfig, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { AddLeadComponent } from './adddialog.component';
